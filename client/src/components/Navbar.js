@@ -1,57 +1,59 @@
 import React from "react";
-
-//this stylesheet will overwrite bootstrap
+import { Nav, Navbar } from "react-bootstrap";
+//import { ReactComponent as Logo } from "./logo.svg";
 const styles = {
-  //can I select the link tag to style or do things have to be styled with style={styles.card}
-  navbar: {
-    color: "green",
+  name: {
+    color: "white",
+  },
+  ham: {
+    background: "white",
+    margin: "1%",
+  },
+  navbarstyle: {
+    background: "#2f1f2b",
+    position: "absolute",
+    top: "0",
+    width: "100%",
+    height: "10%",
+  },
+  links: {
+    paddingRight: "15%",
+    "white-space": "nowrap",
+    color: "white",
   },
 };
 
-export const Navbar = () => {
+export default function Navigation() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="#">
-        Navbar
-      </a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div
-        className="collapse navbar-collapse justify-content-center"
-        id="navbarNav"
-      >
-        <ul className="navbar-nav">
-          <li className="nav-item active">
-            <a className="nav-link" href="#">
-              ABOUT ME<span className="sr-only"></span>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">
+    <div className="container-fluid">
+      <Navbar collapseOnSelect expand="lg" style={styles.navbarstyle}>
+        <Navbar.Brand href="#home" style={styles.name}>
+          Kamary Gillespie
+        </Navbar.Brand>
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          style={styles.ham}
+        />
+        <Navbar.Collapse
+          id="responsive-navbar-nav"
+          className="justify-content-end"
+        >
+          <Nav className="mr-auto">
+            <Nav.Link href="#About" style={styles.links}>
+              ABOUT ME
+            </Nav.Link>
+            <Nav.Link href="#projects" style={styles.links}>
               MY PROJECTS
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">
+            </Nav.Link>
+            <Nav.Link href="#resume" style={styles.links}>
               MY RESUME
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">
+            </Nav.Link>
+            <Nav.Link href="#memes" style={styles.links}>
               CONTACT ME
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </div>
   );
-};
+}

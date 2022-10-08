@@ -1,16 +1,17 @@
-import React from "react";
-import { Navbar } from "./components/Navbar";
-import { Projects } from "./components/Projects";
-import { Footer } from "./components/Footer";
+import Navigation from "./components/Navbar";
+import Background from "./components/Background";
+import Footer from "./components/Footer";
+import About from "./components/About";
 
-function App() {
+export default function App() {
   return (
     <>
-      <Navbar />
-      <Projects />
+      <Background />
+      <Navigation />
+      <About />
       <Footer />
     </>
   );
 }
 
-export default App;
+//

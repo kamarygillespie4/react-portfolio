@@ -1,5 +1,5 @@
 import React from "react";
 
-export const Resume = () => {
-  return <div>Resume</div>;
-};
+export default function Resume() {
+  return <div>resume</div>;
+}
