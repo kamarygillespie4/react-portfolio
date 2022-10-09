@@ -18,7 +18,12 @@ function Footer() {
       style={styles.footer}
     >
       <div className="text-center p-3">
-        © 2020 Copyright:
+        <a className="text-dark" href="https://mdbootstrap.com/">
+          MDBootstrap.com
+        </a>
+        <a className="text-dark" href="https://mdbootstrap.com/">
+          MDBootstrap.com
+        </a>
         <a className="text-dark" href="https://mdbootstrap.com/">
           MDBootstrap.com
         </a>
