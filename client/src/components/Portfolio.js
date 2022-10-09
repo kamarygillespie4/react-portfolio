@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
+import Button from "react-bootstrap/Button";
 
 const styles = {
   div: {
@@ -8,7 +9,7 @@ const styles = {
   },
   item: {
     height: "100vh",
-    width: "auto",
+    width: "100vw",
   },
 };
 
@@ -25,40 +26,28 @@ function Portfolio() {
         <img
           style={styles.item}
           className="d-block w-100"
-          src="https://images.unsplash.com/photo-1665238076980-47731fc833b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+          src="./images/workday.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          style={styles.item}
-          className="d-block w-100"
-          src="https://images.unsplash.com/photo-1665238076980-47731fc833b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
-          alt="no"
-        />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          style={styles.item}
-          className="d-block w-100"
-          src="https://images.unsplash.com/photo-1665238076980-47731fc833b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>Work Day Scheduler</h3>
+          <p>description</p>
+          <div className="d-grid gap-2">
+            <Button
+              size="lg"
+              href="https://kamarygillespie4.github.io/work-day-scheduler/"
+              target="_blank"
+            >
+              Deployed Website
+            </Button>
+            <Button
+              size="lg"
+              href="https://github.com/kamarygillespie4/work-day-scheduler"
+              target="_blank"
+            >
+              Github Repository
+            </Button>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

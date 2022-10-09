@@ -2,11 +2,11 @@ import React from "react";
 
 const styles = {
   footer: {
-    position: "relative",
+    position: "static",
     bottom: "0",
     left: "0",
-    width: "100%",
-    height: "4rem",
+    width: "100ww",
+    height: "5vh",
     background: "#D0DAEE",
   },
 };
