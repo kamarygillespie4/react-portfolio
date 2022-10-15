@@ -14,12 +14,12 @@ const styles = {
   icons: {
     height: "4vh",
     width: "auto",
-    "margin-left": "2.5%",
-    "margin-right": "2.5%",
+    marginLeft: "2.5%",
+    marginRight: "2.5%",
   },
   link: {
-    "padding-left": "2%",
-    "padding-right": "2%",
+    paddingLeft: "2%",
+    paddingRight: "2%",
   },
 };
 
@@ -32,7 +32,7 @@ function Footer() {
       <div className="text-center p-3" style={styles.div}>
         <a
           className="text-dark"
-          href="https://mdbootstrap.com/"
+          href="https://github.com/kamarygillespie4"
           target="_blank"
           style={styles.link}
           rel="noreferrer"
@@ -58,7 +58,7 @@ function Footer() {
         </a>
         <a
           className="text-dark"
-          href="https://mdbootstrap.com/"
+          href="https://stackoverflow.com/users/20186894/kamary-gillespie"
           target="_blank"
           style={styles.link}
           rel="noreferrer"
