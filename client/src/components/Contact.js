@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 const styles = {
   div: {
     background: "#40bbbe",
-    height: "100vh",
+    height: "100%",
     padding: "10px",
   },
 
