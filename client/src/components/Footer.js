@@ -9,7 +9,7 @@ const styles = {
     height: "5vh",
   },
   div: {
-    background: "#38a3af",
+    background: "#dfbdaf",
   },
   icons: {
     height: "4vh",

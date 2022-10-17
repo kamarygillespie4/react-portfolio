@@ -14,16 +14,18 @@ function App() {
       <Header />
       <Router>
         <Routes>
-          <Route exact path="/" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/react-portfoliio/" element={<About />} />
+          <Route path="/teact-portfolio/portfolio" element={<Portfolio />} />
+          <Route path="/react-portfoilio/resume" element={<Resume />} />
+          <Route path="/react-portfolio/contact" element={<Contact />} />
         </Routes>
       </Router>
-      <About />
+
       <Footer />
     </div>
   );
 }
 
 export default App;
+
+// /* <Route exact path="/" element={<About />} /> */

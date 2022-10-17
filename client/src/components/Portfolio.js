@@ -4,13 +4,13 @@ import Button from "react-bootstrap/Button";
 
 const styles = {
   div: {
-    background: "#40bbbe",
+    background: "#edede9",
     height: "100%",
   },
   cont: {
     width: "90%",
     margin: "auto",
-    textShadow: "2px 2px 3px black",
+    textShadow: "1px 1px 2px gray",
     border: "3px",
     padding: "10px",
   },

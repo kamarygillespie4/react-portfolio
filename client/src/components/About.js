@@ -2,7 +2,7 @@ import React from "react";
 
 const styles = {
   div: {
-    background: "#40bbbe",
+    background: "#edede9",
     height: "100vh",
 
     padding: "10px",
@@ -20,33 +20,33 @@ const styles = {
   brand: {
     padding: "20px",
     fontFamily: "Comfortaa",
-    color: "#22367a",
+    color: "#4a4e69",
     //right, down, blur, color
-    textShadow: "3px 3px 4px #c7f9cc",
+    textShadow: "1px 1px 2px gray",
     letterSpacing: "2px",
   },
   quote: {
     padding: "20px",
     fontFamily: "Comfortaa",
-    color: "#22367a",
+    color: "#4a4e69",
     //right, down, blur, color
-    textShadow: "2px 2px 5px #c7f9cc",
+    textShadow: "1px 1px 2px gray",
     letterSpacing: "2px",
   },
   author: {
     padding: "10px",
     fontFamily: "Comfortaa",
-    color: "#22367a",
+    color: "#4a4e69",
     //right, down, blur, color
-    textShadow: "2px 2px 5px #c7f9cc",
+    textShadow: "1px 1px 2px gray",
     letterSpacing: "2px",
   },
   skillset: {
     padding: "10px",
     fontFamily: "caveat",
-    color: "#22367a",
+    color: "#4a4e69",
     //right, down, blur, color
-    textShadow: "2px 2px 5px #c7f9cc",
+    textShadow: "1px 1px 2px gray",
     letterSpacing: "2px",
   },
 };
@@ -71,6 +71,9 @@ function About() {
           </div>
           <div className="col-md-6 ms-auto">
             <h2 style={styles.skillset}>My current skillset includes</h2>
+            <div>
+              <img src="" alt="" />
+            </div>
           </div>
         </div>
       </div>

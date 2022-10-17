@@ -2,7 +2,7 @@ import React from "react";
 
 const styles = {
   div: {
-    background: "#40bbbe",
+    background: "#edede9",
     height: "100vh",
     padding: "10px",
   },

@@ -2,8 +2,8 @@ import emailjs from "emailjs-com";
 import React, { useRef } from "react";
 const styles = {
   div: {
-    background: "#40bbbe",
-    height: "100%",
+    background: "#edede9",
+    height: "100vh",
     padding: "10px",
   },
 
@@ -14,16 +14,16 @@ const styles = {
   title: {
     padding: "10px",
     fontFamily: "caveat",
-    color: "#22367a",
+    color: "#4a4e69",
     fontSize: "xxx-large",
     //right, down, blur, color
-    textShadow: "2px 2px 5px #c7f9cc",
+    textShadow: "1px 1px 2px gray",
     letterSpacing: "2px",
   },
   form: {
     padding: "10px",
     fontSize: "large",
-    background: "#38a3af",
+    background: "#dfbdaf",
     borderRadius: "15px",
   },
   formGroup: {
@@ -32,9 +32,9 @@ const styles = {
     fontFamily: "comfortaa",
     color: "white",
     //right, down, blur, color
-    textShadow: "1px 1px 3px #c7f9cc",
+    textShadow: "1px 1px 3px gray",
     letterSpacing: "2px",
-    background: "#2c7a82",
+    background: "#9a8c98",
     borderRadius: "10px",
     margin: "1%",
   },
@@ -44,7 +44,7 @@ const styles = {
     fontFamily: "comfortaa",
     color: "white",
     //right, down, blur, color
-    textShadow: "1px 1px 3px #c7f9cc",
+    textShadow: "1px 1px 3px gray",
     letterSpacing: "2px",
     background: "#00626d",
     borderRadius: "7px",

@@ -5,14 +5,14 @@ import Navbar from "react-bootstrap/Navbar";
 
 const styles = {
   div: {
-    background: "#38a3af",
+    background: "#dfbdaf",
   },
   brand: {
     fontSize: "xx-large",
     fontWeight: "bold",
     color: "#192759",
     //right, down, blur, color
-    textShadow: "2px 2px 5px #c7f9cc",
+    textShadow: "1px 1px 2px gray",
     fontFamily: "Monoton, cursive",
     letterSpacing: "2px",
   },
