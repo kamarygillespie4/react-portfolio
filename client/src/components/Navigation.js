@@ -31,16 +31,16 @@ function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/" style={styles.link}>
+            <Nav.Link href="/react-portfolio" style={styles.link}>
               ABOUT ME
             </Nav.Link>
-            <Nav.Link href="/portfolio" style={styles.link}>
+            <Nav.Link href="/react-portfolio/portfolio" style={styles.link}>
               MY PORTFOLIO
             </Nav.Link>
-            <Nav.Link href="/resume" style={styles.link}>
+            <Nav.Link href="/react-portfolio/resume" style={styles.link}>
               MY RESUME
             </Nav.Link>
-            <Nav.Link href="/contact" style={styles.link}>
+            <Nav.Link href="/react-portfolio/contact" style={styles.link}>
               CONTACT ME
             </Nav.Link>
           </Nav>
