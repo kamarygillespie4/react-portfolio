@@ -39,11 +39,11 @@ function Navigation() {
                   ABOUT ME
                 </Link>
               </Nav.Link>
-              <Nav.Link style={styles.link}>
-                <Link to="/portfolio" style={styles.link}>
-                  MY PORTFOLIO
-                </Link>
-              </Nav.Link>
+              {/* // // // */}
+              <Link to="/portfolio" style={styles.link}>
+                MY PORTFOLIO
+              </Link>
+              {/* // // // */}
               <Nav.Link style={styles.link}>
                 <Link to="/resume" style={styles.link}>
                   RESUME
