@@ -23,30 +23,32 @@ const styles = {
 
 function Navigation() {
   return (
-    <Navbar expand="lg" style={styles.div}>
-      <Container>
-        <Navbar.Brand href="/" style={styles.brand}>
-          KAMARY GILLESPIE
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="/react-portfolio" style={styles.link}>
-              ABOUT ME
-            </Nav.Link>
-            <Nav.Link href="/react-portfolio/portfolio" style={styles.link}>
-              MY PORTFOLIO
-            </Nav.Link>
-            <Nav.Link href="/react-portfolio/resume" style={styles.link}>
-              MY RESUME
-            </Nav.Link>
-            <Nav.Link href="/react-portfolio/contact" style={styles.link}>
-              CONTACT ME
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <div>
+      <Navbar expand="lg" style={styles.div}>
+        <Container>
+          <Navbar.Brand href="/" style={styles.brand}>
+            KAMARY GILLESPIE
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="/react-portfolio" style={styles.link}>
+                ABOUT ME
+              </Nav.Link>
+              <Nav.Link href="/react-portfolio/portfolio" style={styles.link}>
+                MY PORTFOLIO
+              </Nav.Link>
+              <Nav.Link href="/react-portfolio/resume" style={styles.link}>
+                MY RESUME
+              </Nav.Link>
+              <Nav.Link href="/react-portfolio/contact" style={styles.link}>
+                CONTACT ME
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </div>
   );
 }
 

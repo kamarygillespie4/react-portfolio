@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Header from "./components/Header";
+import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Resume from "./components/Resume";
@@ -11,13 +11,13 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div>
-      <Header />
+      <Navigation />
       <Router>
         <Routes>
-          <Route path="/react-portfoliio" element={<About />} />
-          <Route path="/react-portfoliio/portfolio" element={<Portfolio />} />
-          <Route path="/react-portfoliio/resume" element={<Resume />} />
-          <Route path="/react-portfoliio/contact" element={<Contact />} />
+          <Route path="/react-portfolio" element={<About />} />
+          <Route path="/react-portfolio/portfolio" element={<Portfolio />} />
+          <Route path="/react-portfolio/resume" element={<Resume />} />
+          <Route path="/react-portfolio/contact" element={<Contact />} />
         </Routes>
       </Router>
 
