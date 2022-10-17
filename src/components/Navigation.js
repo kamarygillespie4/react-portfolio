@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 
 const styles = {
   div: {
@@ -18,6 +19,7 @@ const styles = {
   },
   link: {
     color: "#22577a",
+    textDecoration: "none",
   },
 };
 
@@ -32,17 +34,25 @@ function Navigation() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/react-portfolio" style={styles.link}>
-                ABOUT ME
+              <Nav.Link style={styles.link}>
+                <Link to="/about" style={styles.link}>
+                  ABOUT ME
+                </Link>
               </Nav.Link>
-              <Nav.Link href="/react-portfolio/portfolio" style={styles.link}>
-                MY PORTFOLIO
+              <Nav.Link style={styles.link}>
+                <Link to="/portfolio" style={styles.link}>
+                  MY PORTFOLIO
+                </Link>
               </Nav.Link>
-              <Nav.Link href="/react-portfolio/resume" style={styles.link}>
-                MY RESUME
+              <Nav.Link style={styles.link}>
+                <Link to="/resume" style={styles.link}>
+                  RESUME
+                </Link>
               </Nav.Link>
               <Nav.Link href="/react-portfolio/contact" style={styles.link}>
-                CONTACT ME
+                <Link to="/contact" style={styles.link}>
+                  CONTACT ME
+                </Link>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

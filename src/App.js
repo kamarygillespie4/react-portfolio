@@ -11,17 +11,18 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div>
-      <Navigation />
       <Router>
+        <Navigation />
         <Routes>
-          <Route path="react-portfolio" element={<About />} />
-          <Route path="react-portfolio/portfolio" element={<Portfolio />} />
-          <Route path="react-portfolio/resume" element={<Resume />} />
-          <Route path="react-portfolio/contact" element={<Contact />} />
+          <Route path="/react-portfolio" element={<About />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
-      </Router>
 
-      <Footer />
+        <Footer />
+      </Router>
     </div>
   );
 }
