@@ -1,31 +1,45 @@
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button";
+import movies from "../images/movies.jpg";
+import teamprof from "../images/teamprof.jpg";
+import techblog from "../images/techblog.jpg";
+import workday from "../images/workday.jpg";
 
 const styles = {
   div: {
     background: "#edede9",
-    height: "110vh",
+    height: "100vh",
   },
   cont: {
     width: "90vw",
     margin: "auto",
-    textShadow: "1px 1px 2px gray",
+    textShadow: "1px 1px 2px #8288b8",
     border: "3px",
     padding: "10px",
   },
   item: {
-    height: "100vh",
+    height: "90vh",
     width: "100vw",
     borderRadius: "25px",
   },
   button1: {
-    background: "#57cc99",
-    "border-color": "#57cc99",
+    background: "#6f759e",
+    borderColor: "#6f759e",
   },
   button2: {
-    background: "#80ed99",
-    "border-color": "#80ed99",
+    background: "#6f759e",
+    borderColor: "#6f759e",
+  },
+  text: {
+    background: "#8288b8",
+    opacity: "0.8",
+    borderRadius: "05px",
+  },
+  title: {
+    background: "#8288b8",
+    opacity: ".9",
+    borderRadius: "05px",
   },
 };
 
@@ -48,12 +62,12 @@ function Portfolio() {
           <img
             style={styles.item}
             className="d-block w-100"
-            src="https://images.unsplash.com/photo-1665310127352-a7be56238f6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60"
+            src={workday}
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Work Day Scheduler</h3>
-            <p>
+            <h3 style={styles.title}>Work Day Scheduler</h3>
+            <p style={styles.text}>
               The purpose of this application is to help the user schedule their
               work day. The page displays the current date and time. The page
               has several blocks of time in which the user can input their
@@ -84,12 +98,12 @@ function Portfolio() {
           <img
             style={styles.item}
             className="d-block w-100"
-            src="https://images.unsplash.com/photo-1665310127352-a7be56238f6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60"
+            src={techblog}
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Tech Blog</h3>
-            <p>
+            <h3 style={styles.title}>Tech Blog</h3>
+            <p style={styles.text}>
               This is a tech blog. When the user opens the website. The can view
               their homepage in order to see other users post and comments. If
               the user logs in, they can then view all their posts on their
@@ -124,8 +138,8 @@ function Portfolio() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Capitals Quiz</h3>
-            <p>
+            <h3 style={styles.title}>Capitals Quiz</h3>
+            <p style={styles.text}>
               This is a timed quiz to test users on how well they know the U.S
               cpitals. The user is given 10 questions and has a short amount of
               time to answer them all. When the quiz ends, the user's score is
@@ -155,12 +169,12 @@ function Portfolio() {
           <img
             style={styles.item}
             className="d-block w-100"
-            src="https://images.unsplash.com/photo-1665310127352-a7be56238f6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60"
+            src={teamprof}
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Team Profile Generator</h3>
-            <p>
+            <h3 style={styles.title}>Team Profile Generator</h3>
+            <p style={styles.text}>
               This application can be used to generate a team profile html page.
               This is a command-line application that accepts user input. Once
               the user fills in all of their teams information. The application
@@ -195,8 +209,8 @@ function Portfolio() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Express Note Taker</h3>
-            <p>
+            <h3 style={styles.title}>Express Note Taker</h3>
+            <p style={styles.text}>
               This application allows users to create and save notes. Each note
               has a title and body to be filled in by the user. In order to
               access a previously made note, simply click on its title in the
@@ -226,12 +240,12 @@ function Portfolio() {
           <img
             style={styles.item}
             className="d-block w-100"
-            src="https://images.unsplash.com/photo-1665310127352-a7be56238f6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60"
+            src={movies}
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Movie Picker</h3>
-            <p>
+            <h3 style={styles.title}>Movie Picker</h3>
+            <p style={styles.text}>
               The purpose of this site is to show the user 6 random movies,
               based on the genre they've selected. This application utilizes a
               movie database API in order to return 6 movies based on the
