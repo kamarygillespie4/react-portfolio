@@ -36,7 +36,7 @@ const styles = {
     letterSpacing: "2px",
     background: "#9a8c98",
     borderRadius: "10px",
-    margin: "1%",
+    margin: "3px",
   },
   button: {
     padding: "10px",
@@ -48,8 +48,8 @@ const styles = {
     letterSpacing: "2px",
     background: "#00626d",
     borderRadius: "7px",
-    margin: "1%",
-    marginLeft: "1.5%",
+    margin: "5px",
+    marginLeft: "5px",
     border: "0px",
   },
 };
