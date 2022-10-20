@@ -11,7 +11,7 @@ const styles = {
   brand: {
     fontSize: "xx-large",
     fontWeight: "bold",
-    color: "#192759",
+    color: "#393c51",
     //right, down, blur, color
     textShadow: "1px 1px 2px gray",
     fontFamily: "Monoton, cursive",
@@ -19,7 +19,7 @@ const styles = {
     textDecoration: "none",
   },
   link: {
-    color: "#22577a",
+    color: "#4a4e69",
     textDecoration: "none",
     margin: "10px",
   },
