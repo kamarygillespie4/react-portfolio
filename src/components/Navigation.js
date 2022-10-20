@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 
 const styles = {
   div: {
@@ -15,9 +16,11 @@ const styles = {
     textShadow: "1px 1px 2px gray",
     fontFamily: "Monoton, cursive",
     letterSpacing: "2px",
+    textDecoration: "none",
   },
   link: {
     color: "#22577a",
+    textDecoration: "none",
   },
 };
 
@@ -26,24 +29,24 @@ function Navigation() {
     <div>
       <Navbar expand="lg" style={styles.div}>
         <Container>
-          <Navbar.Brand href="/about" style={styles.brand}>
+          <Link Link to="/about" style={styles.brand}>
             KAMARY GILLESPIE
-          </Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/about" style={styles.link}>
+              <Link to="/about" style={styles.link}>
                 ABOUT ME
-              </Nav.Link>
-              <Nav.Link href="/portfolio" style={styles.link}>
+              </Link>
+              <Link to="/portfolio" style={styles.link}>
                 MY PORTFOLIO
-              </Nav.Link>
-              <Nav.Link href="/resume" style={styles.link}>
+              </Link>
+              <Link to="/resume" style={styles.link}>
                 MY RESUME
-              </Nav.Link>
-              <Nav.Link href="/contact" style={styles.link}>
+              </Link>
+              <Link to="/contact" style={styles.link}>
                 CONTACT ME
-              </Nav.Link>
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

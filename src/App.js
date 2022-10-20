@@ -17,8 +17,8 @@ const styles = {
 
 function App() {
   return (
-    <div style={styles.main}>
-      <Router>
+    <Router>
+      <div style={styles.main}>
         <Navigation />
         <Routes>
           <Route path="/react-portfolio" element={<About />} />
@@ -29,8 +29,8 @@ function App() {
         </Routes>
 
         <Footer />
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 
