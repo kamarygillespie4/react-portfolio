@@ -14,12 +14,12 @@ const styles = {
   icons: {
     height: "4vh",
     width: "auto",
-    marginLeft: "2.5%",
-    marginRight: "2.5%",
+    marginLeft: "3vw",
+    marginRight: "3vw",
   },
   link: {
-    paddingLeft: "2%",
-    paddingRight: "2%",
+    paddingLeft: "2vw",
+    paddingRight: "2vw",
   },
 };
 

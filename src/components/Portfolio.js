@@ -5,10 +5,10 @@ import Button from "react-bootstrap/Button";
 const styles = {
   div: {
     background: "#edede9",
-    height: "100%",
+    height: "110vh",
   },
   cont: {
-    width: "90%",
+    width: "90vw",
     margin: "auto",
     textShadow: "1px 1px 2px gray",
     border: "3px",

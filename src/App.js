@@ -8,9 +8,16 @@ import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 
+const styles = {
+  main: {
+    width: "100vw",
+    height: "100vh",
+  },
+};
+
 function App() {
   return (
-    <div>
+    <div style={styles.main}>
       <Router>
         <Navigation />
         <Routes>

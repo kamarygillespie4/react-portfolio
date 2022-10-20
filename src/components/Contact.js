@@ -8,7 +8,7 @@ const styles = {
   },
 
   container: {
-    width: "95%",
+    width: "95vw",
     //border: "1px solid black",
   },
   title: {

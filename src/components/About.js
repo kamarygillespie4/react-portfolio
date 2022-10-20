@@ -3,18 +3,18 @@ import React from "react";
 const styles = {
   div: {
     background: "#edede9",
-    height: "100vh",
+    height: "120vh",
 
     padding: "10px",
   },
   sidecont: {
-    padding: "2%",
+    padding: "2px",
   },
   font1: {
     color: "white",
   },
   container: {
-    width: "95%",
+    width: "95vw",
     //border: "1px solid black",
   },
   brand: {

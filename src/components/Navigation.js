@@ -26,7 +26,7 @@ function Navigation() {
     <div>
       <Navbar expand="lg" style={styles.div}>
         <Container>
-          <Navbar.Brand href="/" style={styles.brand}>
+          <Navbar.Brand href="/about" style={styles.brand}>
             KAMARY GILLESPIE
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
