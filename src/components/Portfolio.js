@@ -25,15 +25,22 @@ const styles = {
   },
   button1: {
     background: "#6f759e",
+    opacity: "0.7",
     borderColor: "#6f759e",
   },
   button2: {
     background: "#6f759e",
+    opacity: "0.7",
+    borderColor: "#6f759e",
+  },
+  disabled: {
+    background: "#6f759e",
+    opacity: "0.5",
     borderColor: "#6f759e",
   },
   text: {
     background: "#8288b8",
-    opacity: "0.8",
+    opacity: "0.9",
     borderRadius: "05px",
   },
   title: {
@@ -193,7 +200,7 @@ function Portfolio() {
                 size="lg"
                 target="_blank"
                 href="https://github.com/kamarygillespie4/OOP-team-profile-generator"
-                style={styles.button1}
+                style={styles.disabled}
                 disabled
               >
                 This application does not have a deployed Website

@@ -46,7 +46,7 @@ const styles = {
     //right, down, blur, color
     textShadow: "1px 1px 3px gray",
     letterSpacing: "2px",
-    background: "#00626d",
+    background: "#9a8c98",
     borderRadius: "7px",
     margin: "5px",
     marginLeft: "5px",

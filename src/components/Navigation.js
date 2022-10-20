@@ -21,6 +21,7 @@ const styles = {
   link: {
     color: "#22577a",
     textDecoration: "none",
+    margin: "10px",
   },
 };
 
