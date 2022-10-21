@@ -3,7 +3,7 @@ import React from "react";
 const styles = {
   div: {
     background: "#edede9",
-    height: "120vh",
+    height: "110vh",
 
     padding: "10px",
   },
@@ -49,6 +49,14 @@ const styles = {
     textShadow: "1px 1px 2px gray",
     letterSpacing: "2px",
   },
+  icon: {
+    height: "auto",
+    width: "10vw",
+    margin: "10px",
+    padding: "6px",
+    boxShadow: " 0px 0px 6px #4a4e69",
+    borderRadius: "10px",
+  },
 };
 
 function About() {
@@ -72,7 +80,46 @@ function About() {
           <div className="col-md-6 ms-auto">
             <h2 style={styles.skillset}>My current skillset includes</h2>
             <div>
-              <img src="" alt="" />
+              <img
+                style={styles.icon}
+                src="https://cdn-icons-png.flaticon.com/512/5968/5968509.png"
+                alt="javascript icon"
+              />
+              <img
+                style={styles.icon}
+                src="https://freeiconshop.com/wp-content/uploads/edd/css-outline.png"
+                alt="css icon"
+              />
+              <img
+                style={styles.icon}
+                src="https://freeiconshop.com/wp-content/uploads/edd/html-outline.png"
+                alt="html icon"
+              />
+              <img
+                style={styles.icon}
+                src="https://cdn-icons-png.flaticon.com/512/274/274439.png"
+                alt="mysql icon"
+              />
+              <img
+                style={styles.icon}
+                src="https://icons.veryicon.com/png/o/miscellaneous/gwidc_1/mongodb.png"
+                alt="mongodb icon"
+              />
+              <img
+                style={styles.icon}
+                src="https://img.icons8.com/ios-glyphs/480/react.png"
+                alt="react icon"
+              />
+              <img
+                style={styles.icon}
+                src="https://www.shareicon.net/data/2016/07/13/606472_black_2048x2048.png"
+                alt="bootstrap icon"
+              />
+              <img
+                style={styles.icon}
+                src="https://www.shareicon.net/download/2016/06/19/603784_nodejs_512x512.png"
+                alt="node.js icon"
+              />
             </div>
           </div>
         </div>
