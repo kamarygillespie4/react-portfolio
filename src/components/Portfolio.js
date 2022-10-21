@@ -5,6 +5,8 @@ import movies from "../images/movies.jpg";
 import teamprof from "../images/teamprof.jpg";
 import techblog from "../images/techblog.jpg";
 import workday from "../images/workday.jpg";
+import express from "../images/express.jpg";
+import quiz from "../images/quiz.jpg";
 
 const styles = {
   div: {
@@ -141,7 +143,7 @@ function Portfolio() {
           <img
             style={styles.item}
             className="d-block w-100"
-            src="https://images.unsplash.com/photo-1665310127352-a7be56238f6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60"
+            src={quiz}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -212,7 +214,7 @@ function Portfolio() {
           <img
             style={styles.item}
             className="d-block w-100"
-            src="https://images.unsplash.com/photo-1665310127352-a7be56238f6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60"
+            src={express}
             alt="First slide"
           />
           <Carousel.Caption>
