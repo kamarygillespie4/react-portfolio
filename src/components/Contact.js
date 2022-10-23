@@ -2,56 +2,56 @@ import emailjs from "emailjs-com";
 import React, { useRef } from "react";
 const styles = {
   div: {
-    background: "#edede9",
+    // background: "#edede9",
     height: "100vh",
     padding: "10px",
   },
 
-  container: {
-    width: "95vw",
-    //border: "1px solid black",
-  },
-  title: {
-    padding: "10px",
-    fontFamily: "caveat",
-    color: "#4a4e69",
-    fontSize: "xxx-large",
-    //right, down, blur, color
-    textShadow: "1px 1px 2px gray",
-    letterSpacing: "2px",
-  },
-  form: {
-    padding: "10px",
-    fontSize: "large",
-    background: "#dfbdaf",
-    borderRadius: "15px",
-  },
-  formGroup: {
-    padding: "15px",
-    fontSize: "large",
-    fontFamily: "comfortaa",
-    color: "white",
-    //right, down, blur, color
-    textShadow: "1px 1px 3px gray",
-    letterSpacing: "2px",
-    background: "#9a8c98",
-    borderRadius: "10px",
-    margin: "3px",
-  },
-  button: {
-    padding: "10px",
-    fontSize: "large",
-    fontFamily: "comfortaa",
-    color: "white",
-    //right, down, blur, color
-    textShadow: "1px 1px 3px gray",
-    letterSpacing: "2px",
-    background: "#9a8c98",
-    borderRadius: "7px",
-    margin: "5px",
-    marginLeft: "5px",
-    border: "0px",
-  },
+  // container: {
+  //   width: "95vw",
+  //   //border: "1px solid black",
+  // },
+  // title: {
+  //   padding: "10px",
+  //   fontFamily: "caveat",
+  //   color: "#4a4e69",
+  //   fontSize: "xxx-large",
+  //   //right, down, blur, color
+  //   textShadow: "1px 1px 2px gray",
+  //   letterSpacing: "2px",
+  // },
+  // form: {
+  //   padding: "10px",
+  //   fontSize: "large",
+  //   background: "#dfbdaf",
+  //   borderRadius: "15px",
+  // },
+  // formGroup: {
+  //   padding: "15px",
+  //   fontSize: "large",
+  //   fontFamily: "comfortaa",
+  //   color: "white",
+  //   //right, down, blur, color
+  //   textShadow: "1px 1px 3px gray",
+  //   letterSpacing: "2px",
+  //   background: "#9a8c98",
+  //   borderRadius: "10px",
+  //   margin: "3px",
+  // },
+  // button: {
+  //   padding: "10px",
+  //   fontSize: "large",
+  //   fontFamily: "comfortaa",
+  //   color: "white",
+  //   //right, down, blur, color
+  //   textShadow: "1px 1px 3px gray",
+  //   letterSpacing: "2px",
+  //   background: "#9a8c98",
+  //   borderRadius: "7px",
+  //   margin: "5px",
+  //   marginLeft: "5px",
+  //   border: "0px",
+  // },
 };
 
 function Contact() {

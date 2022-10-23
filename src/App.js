@@ -11,7 +11,8 @@ import Contact from "./components/Contact";
 const styles = {
   main: {
     width: "100vw",
-    height: "100vh",
+    height: "100%",
+    background: "#28363d",
   },
 };
 

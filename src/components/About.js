@@ -2,53 +2,53 @@ import React from "react";
 
 const styles = {
   div: {
-    background: "#edede9",
+    // background: "#edede9",
     height: "110vh",
 
     padding: "10px",
   },
-  sidecont: {
-    padding: "2px",
-  },
-  font1: {
-    color: "white",
-  },
-  container: {
-    width: "95vw",
-    //border: "1px solid black",
-  },
-  brand: {
-    padding: "20px",
-    fontFamily: "Comfortaa",
-    color: "#4a4e69",
-    //right, down, blur, color
-    textShadow: "1px 1px 2px gray",
-    letterSpacing: "2px",
-  },
-  quote: {
-    padding: "20px",
-    fontFamily: "Comfortaa",
-    color: "#4a4e69",
-    //right, down, blur, color
-    textShadow: "1px 1px 2px gray",
-    letterSpacing: "2px",
-  },
-  author: {
-    padding: "10px",
-    fontFamily: "Comfortaa",
-    color: "#4a4e69",
-    //right, down, blur, color
-    textShadow: "1px 1px 2px gray",
-    letterSpacing: "2px",
-  },
-  skillset: {
-    padding: "10px",
-    fontFamily: "caveat",
-    color: "#4a4e69",
-    //right, down, blur, color
-    textShadow: "1px 1px 2px gray",
-    letterSpacing: "2px",
-  },
+  // sidecont: {
+  //   padding: "2px",
+  // },
+  // font1: {
+  //   color: "white",
+  // },
+  // container: {
+  //   width: "95vw",
+  //   //border: "1px solid black",
+  // },
+  // brand: {
+  //   padding: "20px",
+  //   fontFamily: "Comfortaa",
+  //   color: "#4a4e69",
+  //   //right, down, blur, color
+  //   textShadow: "1px 1px 2px gray",
+  //   letterSpacing: "2px",
+  // },
+  // quote: {
+  //   padding: "20px",
+  //   fontFamily: "Comfortaa",
+  //   color: "#4a4e69",
+  //   //right, down, blur, color
+  //   textShadow: "1px 1px 2px gray",
+  //   letterSpacing: "2px",
+  // },
+  // author: {
+  //   padding: "10px",
+  //   fontFamily: "Comfortaa",
+  //   color: "#4a4e69",
+  //   //right, down, blur, color
+  //   textShadow: "1px 1px 2px gray",
+  //   letterSpacing: "2px",
+  // },
+  // skillset: {
+  //   padding: "10px",
+  //   fontFamily: "caveat",
+  //   color: "#4a4e69",
+  //   //right, down, blur, color
+  //   textShadow: "1px 1px 2px gray",
+  //   letterSpacing: "2px",
+  // },
   icon: {
     height: "auto",
     width: "10vw",
@@ -78,7 +78,7 @@ function About() {
             <h4 style={styles.author}> - Zig Ziglar</h4>
           </div>
           <div className="col-md-6 ms-auto">
-            <h2 style={styles.skillset}>My current skillset includes</h2>
+            <h2 style={styles.skillset}>My current skill set includes</h2>
             <div>
               <img
                 style={styles.icon}

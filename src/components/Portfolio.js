@@ -10,7 +10,7 @@ import quiz from "../images/quiz.jpg";
 
 const styles = {
   div: {
-    background: "#edede9",
+    // background: "#edede9",
     height: "100vh",
   },
   cont: {

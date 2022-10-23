@@ -5,21 +5,23 @@ import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 
 const styles = {
-  div: {
-    background: "#dfbdaf",
-  },
+  // div: {
+  //   background: "#dfbdaf",
+  //   // borderBottomLeftRadius: "20px 15px",
+  //   // borderBottomRightRadius: "20px 15px",
+  // },
   brand: {
-    fontSize: "xx-large",
-    fontWeight: "bold",
-    color: "#393c51",
-    //right, down, blur, color
-    textShadow: "1px 1px 2px gray",
-    fontFamily: "Monoton, cursive",
-    letterSpacing: "2px",
+    // fontSize: "xx-large",
+    // fontWeight: "bold",
+    // color: "#393c51",
+    // //right, down, blur, color
+    // textShadow: "1px 1px 2px gray",
+    // fontFamily: "Monoton, cursive",
+    // letterSpacing: "2px",
     textDecoration: "none",
   },
   link: {
-    color: "#4a4e69",
+    // color: "#4a4e69",
     textDecoration: "none",
     margin: "10px",
   },

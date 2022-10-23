@@ -1,16 +1,16 @@
 import React from "react";
 
 const styles = {
-  footer: {
-    position: "relative",
-    bottom: "0",
-    left: "0",
-    width: "100vw",
-    height: "5vh",
-  },
-  div: {
-    background: "#dfbdaf",
-  },
+  // footer: {
+  //   position: "relative",
+  //   bottom: "0",
+  //   left: "0",
+  //   width: "100vw",
+  //   height: "5vh",
+  // },
+  // div: {
+  //   background: "#dfbdaf",
+  // },
   icons: {
     height: "4vh",
     width: "auto",
@@ -25,10 +25,7 @@ const styles = {
 
 function Footer() {
   return (
-    <footer
-      className="bg-light text-center text-lg-start"
-      style={styles.footer}
-    >
+    <footer className=" text-center text-lg-start" style={styles.footer}>
       <div className="text-center p-3" style={styles.div}>
         <a
           className="text-dark"
