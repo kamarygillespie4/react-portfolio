@@ -1,4 +1,5 @@
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 const styles = {
   div: {
@@ -20,7 +21,7 @@ const styles = {
   },
   brand: {
     padding: "20px",
-    fontFamily: "Comfortaa",
+    fontFamily: "Josefin Sans",
     color: "#eae2cc",
     //right, down, blur, color
     textShadow: "1px 1px 2px gray",
@@ -28,7 +29,7 @@ const styles = {
   },
   quote: {
     padding: "20px",
-    fontFamily: "Comfortaa",
+    fontFamily: "Josefin Sans",
     color: "#eae2cc",
     //right, down, blur, color
     textShadow: "1px 1px 2px gray",
@@ -36,7 +37,7 @@ const styles = {
   },
   author: {
     padding: "10px",
-    fontFamily: "Comfortaa",
+    fontFamily: "Josefin Sans",
     color: "#eae2cc",
     //right, down, blur, color
     textShadow: "1px 1px 2px gray",
@@ -67,16 +68,20 @@ function About() {
       <div className="container text-center" style={styles.container}>
         <div className="row">
           <div className="col-md-6">
-            <h2 style={styles.brand}>
-              Hi, I'm Kamary Gillespie. I am a fullstack web developer on a
-              mission to enhance and diversify my skillset. If I'm not coding,
-              you can find me cuddling with my dog, going out on the boat, or
-              watching movies with my family.
-            </h2>
+            <TypeAnimation
+              sequence={[
+                "Hi, I'm Kamary Gillespie. I am a fullstack web developer on a mission to enhance and diversify my skillset. If I'm not coding, you can find me cuddling with my dog, going out on the boat, or watching movies with my family.",
+                1000,
+              ]}
+              speed={40} // Must be in range between 1 and 99!
+              wrapper="h2"
+              style={styles.brand}
+            />
             <h3 style={styles.quote}>
               "When obstacles arise, you change your direction to reach your
               goal, you do not change your decision to get there."
             </h3>
+
             <h4 style={styles.author}> - Zig Ziglar</h4>
           </div>
           <div className="col-md-6 ms-auto">

@@ -29,10 +29,10 @@ const styles = {
   formGroup: {
     padding: "15px",
     fontSize: "large",
-    fontFamily: "comfortaa",
+    fontFamily: "Josefin Sans",
     color: "#eae2cc",
     //right, down, blur, color
-    textShadow: "0px 0px 3px white",
+    textShadow: "0px 0px 3px black",
     letterSpacing: "2px",
     background: "#347783",
     borderRadius: "10px",
@@ -41,10 +41,10 @@ const styles = {
   button: {
     padding: "10px",
     fontSize: "large",
-    fontFamily: "comfortaa",
+    fontFamily: "Josefin Sans",
     color: "#eae2cc",
     //right, down, blur, color
-    textShadow: "0px 0px 3px white",
+    textShadow: "0px 0px 3px black",
     letterSpacing: "2px",
     background: "#347783",
     borderRadius: "7px",

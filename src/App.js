@@ -18,6 +18,9 @@ const styles = {
     height: "100%",
     background: " black",
   },
+  content: {
+    height: "100vh",
+  },
 };
 
 function App() {
@@ -61,10 +64,10 @@ function App() {
               },
               modes: {
                 push: {
-                  quantity: 4,
+                  quantity: 10,
                 },
                 repulse: {
-                  distance: 200,
+                  distance: 150,
                   duration: 0.4,
                 },
               },
@@ -75,10 +78,10 @@ function App() {
               },
               links: {
                 color: "#ffffff",
-                distance: 150,
+                distance: 200,
                 enable: true,
                 opacity: 0.25,
-                width: 2,
+                width: 1,
               },
               collisions: {
                 enable: true,
@@ -90,7 +93,7 @@ function App() {
                   default: "bounce",
                 },
                 random: false,
-                speed: 6,
+                speed: 4,
                 straight: false,
               },
               number: {
@@ -98,10 +101,10 @@ function App() {
                   enable: true,
                   area: 800,
                 },
-                value: 80,
+                value: 50,
               },
               opacity: {
-                value: 0.5,
+                value: 0.1,
               },
               shape: {
                 type: "circle",
@@ -114,13 +117,16 @@ function App() {
           }}
         />
         <Navigation />
-        <Routes>
-          <Route path="/react-portfolio" element={<About />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+
+        <div style={styles.content}>
+          <Routes>
+            <Route path="/react-portfolio" element={<About />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
 
         <Footer />
       </div>

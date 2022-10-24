@@ -36,7 +36,8 @@ const styles = {
     padding: "6px",
     border: "5px double #347783",
     borderRadius: "10px",
-    fontWeight: "bold",
+    fontFamily: "Josefin Sans",
+    fontWeight: "x-bold",
   },
   toggle: {
     background: "#347783",
