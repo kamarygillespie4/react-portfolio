@@ -19,7 +19,7 @@ const styles = {
     background: " black",
   },
   content: {
-    height: "100vh",
+    height: "90vh",
   },
 };
 

@@ -13,19 +13,21 @@ const styles = {
     // borderBottomLeftRadius: "20px 15px",
     // borderBottomRightRadius: "20px 15px",
     width: "100vw",
-    textAlign: "center",
+    // textAlign: "center",
   },
   brand: {
-    fontSize: "xx-large",
+    fontSize: "4vh",
     fontWeight: "bold",
     color: "#d14e40",
     margin: "10px",
 
     //right, down, blur, color
     textShadow: "1px 1px 2px white",
-    fontFamily: "Monoton, cursive",
+    fontFamily: "Kalam",
+    fontWeight: "bold",
     letterSpacing: "2px",
     textDecoration: "none",
+
     borderBottom: "5px double #347783",
   },
   link: {

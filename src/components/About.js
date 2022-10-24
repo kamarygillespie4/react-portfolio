@@ -53,7 +53,7 @@ const styles = {
   },
   icon: {
     height: "auto",
-    width: "10vw",
+    width: "8vw",
     margin: "10px",
     padding: "6px",
     boxShadow: " 2px 2px 6px #d14e40",
