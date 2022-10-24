@@ -12,10 +12,14 @@ const styles = {
   //   background: "#dfbdaf",
   // },
   icons: {
-    height: "4vh",
+    height: "8vh",
     width: "auto",
     marginLeft: "3vw",
     marginRight: "3vw",
+    background: "#347783",
+    boxShadow: " 2px 2px 6px #d14e40",
+    borderRadius: "10px",
+    padding: "6px",
   },
   link: {
     paddingLeft: "2vw",

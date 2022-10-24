@@ -16,7 +16,7 @@ const styles = {
   main: {
     width: "100vw",
     height: "100%",
-    background: "green",
+    background: " black",
   },
 };
 
@@ -77,8 +77,8 @@ function App() {
                 color: "#ffffff",
                 distance: 150,
                 enable: true,
-                opacity: 0.5,
-                width: 1,
+                opacity: 0.25,
+                width: 2,
               },
               collisions: {
                 enable: true,

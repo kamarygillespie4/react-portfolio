@@ -5,25 +5,41 @@ import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 
 const styles = {
-  // div: {
-  //   background: "#dfbdaf",
-  //   // borderBottomLeftRadius: "20px 15px",
-  //   // borderBottomRightRadius: "20px 15px",
-  // },
+  div: {
+    // justifyContent: "center",
+    // marginLeft: "auto",
+    // marginRight: "auto",
+    // background: "#dfbdaf",
+    // borderBottomLeftRadius: "20px 15px",
+    // borderBottomRightRadius: "20px 15px",
+    width: "100vw",
+    textAlign: "center",
+  },
   brand: {
     fontSize: "xx-large",
     fontWeight: "bold",
-    color: "#393c51",
+    color: "#d14e40",
+    margin: "10px",
+
     //right, down, blur, color
-    textShadow: "1px 1px 2px gray",
+    textShadow: "1px 1px 2px white",
     fontFamily: "Monoton, cursive",
     letterSpacing: "2px",
     textDecoration: "none",
+    borderBottom: "5px double #347783",
   },
   link: {
-    color: "#4a4e69",
+    color: "#d14e40",
     textDecoration: "none",
-    margin: "10px",
+    marginLeft: "20px",
+    marginRight: "20px",
+    padding: "6px",
+    border: "5px double #347783",
+    borderRadius: "10px",
+    fontWeight: "bold",
+  },
+  toggle: {
+    background: "#347783",
   },
 };
 
@@ -35,7 +51,10 @@ function Navigation() {
           <Link Link to="/about" style={styles.brand}>
             KAMARY GILLESPIE
           </Link>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            style={styles.toggle}
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Link to="/about" style={styles.link}>

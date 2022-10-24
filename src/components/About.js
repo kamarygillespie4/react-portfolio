@@ -3,9 +3,10 @@ import React from "react";
 const styles = {
   div: {
     // background: "#edede9",
-    height: "110vh",
+    height: "100%",
 
     padding: "10px",
+    marginTop: "15px",
   },
   sidecont: {
     padding: "2px",
@@ -20,7 +21,7 @@ const styles = {
   brand: {
     padding: "20px",
     fontFamily: "Comfortaa",
-    color: "#4a4e69",
+    color: "#eae2cc",
     //right, down, blur, color
     textShadow: "1px 1px 2px gray",
     letterSpacing: "2px",
@@ -28,7 +29,7 @@ const styles = {
   quote: {
     padding: "20px",
     fontFamily: "Comfortaa",
-    color: "#4a4e69",
+    color: "#eae2cc",
     //right, down, blur, color
     textShadow: "1px 1px 2px gray",
     letterSpacing: "2px",
@@ -36,7 +37,7 @@ const styles = {
   author: {
     padding: "10px",
     fontFamily: "Comfortaa",
-    color: "#4a4e69",
+    color: "#eae2cc",
     //right, down, blur, color
     textShadow: "1px 1px 2px gray",
     letterSpacing: "2px",
@@ -44,7 +45,7 @@ const styles = {
   skillset: {
     padding: "10px",
     fontFamily: "caveat",
-    color: "#4a4e69",
+    color: "#eae2cc",
     //right, down, blur, color
     textShadow: "1px 1px 2px gray",
     letterSpacing: "2px",
@@ -54,8 +55,9 @@ const styles = {
     width: "10vw",
     margin: "10px",
     padding: "6px",
-    boxShadow: " 0px 0px 6px #4a4e69",
+    boxShadow: " 2px 2px 6px #d14e40",
     borderRadius: "10px",
+    background: "#347783",
   },
 };
 
