@@ -1,13 +1,13 @@
 import React from "react";
 
 const styles = {
-  // footer: {
-  //   position: "relative",
-  //   bottom: "0",
-  //   left: "0",
-  //   width: "100vw",
-  //   height: "5vh",
-  // },
+  footer: {
+    position: "relative",
+    // bottom: "0",
+    // left: "0",
+    // width: "100vw",
+    // height: "5vh",
+  },
   // div: {
   //   background: "#dfbdaf",
   // },
