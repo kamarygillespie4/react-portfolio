@@ -16,7 +16,7 @@ const styles = {
     // textAlign: "center",
   },
   brand: {
-    fontSize: "4vh",
+    fontSize: "3vh",
     fontWeight: "bold",
     color: "#d14e40",
     margin: "10px",
@@ -24,7 +24,7 @@ const styles = {
     //right, down, blur, color
     textShadow: "1px 1px 2px white",
     fontFamily: "Kalam",
-    fontWeight: "bold",
+
     letterSpacing: "2px",
     textDecoration: "none",
 
