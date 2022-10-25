@@ -15,7 +15,7 @@ import { loadFull } from "tsparticles";
 const styles = {
   main: {
     width: "100vw",
-    height: "100%",
+    height: "150vh",
     background: " black",
   },
   content: {
