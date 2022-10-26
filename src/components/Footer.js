@@ -3,17 +3,11 @@ import React from "react";
 const styles = {
   footer: {
     position: "relative",
-    // bottom: "0",
-    // left: "0",
     width: "100vw",
-    // height: "5vh",
-  },
-  div: {
-    background: "black",
   },
   icons: {
-    height: "auto",
-    width: "8vw",
+    height: "8vh",
+    width: "auto",
     marginLeft: "3vw",
     marginRight: "3vw",
     background: "#347783",

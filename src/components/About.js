@@ -3,9 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const styles = {
   div: {
-    // background: "#edede9",
     height: "100%",
-
     padding: "10px",
     marginTop: "15px",
   },
@@ -17,7 +15,6 @@ const styles = {
   },
   container: {
     width: "95vw",
-    //border: "1px solid black",
   },
   brand: {
     padding: "20px",
@@ -53,7 +50,7 @@ const styles = {
   },
   icon: {
     height: "auto",
-    width: "10vw",
+    width: "8vw",
     margin: "10px",
     padding: "6px",
     boxShadow: " 2px 2px 6px #d14e40",

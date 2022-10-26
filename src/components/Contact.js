@@ -2,14 +2,11 @@ import emailjs from "emailjs-com";
 import React, { useRef } from "react";
 const styles = {
   div: {
-    // background: "#edede9",
-    // height: "100vh",
     padding: "10px",
   },
 
   container: {
     width: "95vw",
-    //border: "1px solid black",
   },
   title: {
     padding: "10px",

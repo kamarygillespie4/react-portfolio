@@ -6,28 +6,18 @@ import { Link } from "react-router-dom";
 
 const styles = {
   div: {
-    // justifyContent: "center",
-    // marginLeft: "auto",
-    // marginRight: "auto",
-    // background: "#dfbdaf",
-    // borderBottomLeftRadius: "20px 15px",
-    // borderBottomRightRadius: "20px 15px",
     width: "100vw",
-    // textAlign: "center",
   },
   brand: {
     fontSize: "3vh",
     fontWeight: "bold",
     color: "#d14e40",
     margin: "10px",
-
     //right, down, blur, color
     textShadow: "1px 1px 2px white",
     fontFamily: "Kalam",
-
     letterSpacing: "2px",
     textDecoration: "none",
-
     borderBottom: "5px double #347783",
   },
   link: {
