@@ -15,12 +15,12 @@ import { loadFull } from "tsparticles";
 const styles = {
   main: {
     width: "100vw",
-    height: "150vh",
+    height: "110vh",
     background: " black",
   },
-  content: {
-    height: "100vh",
-  },
+  // content: {
+  //   height: "100%",
+  // },
 };
 
 function App() {

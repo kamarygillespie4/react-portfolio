@@ -11,12 +11,12 @@ import quiz from "../images/quiz.jpg";
 const styles = {
   div: {
     // background: "#edede9",
-    height: "120vh",
+    // height: "120vh",
   },
   card: {
     margin: "2px",
     borderRadius: "15px",
-    width: "35vw",
+    background: "green",
   },
   // cont: {
   //   width: "90vw",
@@ -29,7 +29,8 @@ const styles = {
   image: {
     height: "auto",
     width: "100%",
-    borderRadius: "25px",
+    borderRadius: "15px",
+    padding: "5px",
   },
   button: {
     background: "#d14e40",
@@ -49,9 +50,9 @@ const styles = {
   //   borderColor: "#d14e40",
   // },
   text: {
-    background: "#d14e40",
-    opacity: "0.9",
-    borderRadius: "05px",
+    // background: "#d14e40",
+    // opacity: "0.9",
+    // borderRadius: "05px",
   },
   title: {
     // background: "#d14e40",

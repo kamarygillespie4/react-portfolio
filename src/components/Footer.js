@@ -2,15 +2,15 @@ import React from "react";
 
 const styles = {
   footer: {
-    position: "relative",
-    // bottom: "0",
+    position: "fixed",
+    bottom: "0",
     // left: "0",
-    // width: "100vw",
+    width: "100vw",
     // height: "5vh",
   },
-  // div: {
-  //   background: "#dfbdaf",
-  // },
+  div: {
+    background: "black",
+  },
   icons: {
     height: "8vh",
     width: "auto",
