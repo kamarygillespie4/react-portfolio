@@ -15,11 +15,15 @@ import { loadFull } from "tsparticles";
 const styles = {
   main: {
     width: "100vw",
-    height: "120vh",
+    minHeight: "100vh",
     background: " black",
   },
   // content: {
-  //   height: "100%",
+  //   // height: "100vh",
+  // },
+  // footer: {
+  //   position: "bottom",
+  //   width: "100vw",
   // },
 };
 
@@ -127,8 +131,9 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
-
-        <Footer />
+        <div style={styles.footer}>
+          <Footer />
+        </div>
       </div>
     </Router>
   );

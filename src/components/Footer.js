@@ -2,8 +2,8 @@ import React from "react";
 
 const styles = {
   footer: {
-    position: "fixed",
-    bottom: "0",
+    position: "relative",
+    // bottom: "0",
     // left: "0",
     width: "100vw",
     // height: "5vh",
@@ -12,8 +12,8 @@ const styles = {
     background: "black",
   },
   icons: {
-    height: "8vh",
-    width: "auto",
+    height: "auto",
+    width: "8vw",
     marginLeft: "3vw",
     marginRight: "3vw",
     background: "#347783",
