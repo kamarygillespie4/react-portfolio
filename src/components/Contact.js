@@ -120,11 +120,13 @@ function Contact() {
               </div>
 
               <div className="form-group" style={styles.formGroup}>
-                <label htmlFor="email_body">Message</label>
+                <label htmlFor="message">Message</label>
                 <textarea
+                  type="text"
+                  name="message"
                   className="form-control"
                   placeholder="enter your message"
-                  id="email_body"
+                  id="message_body"
                   rows="5"
                 ></textarea>
               </div>
