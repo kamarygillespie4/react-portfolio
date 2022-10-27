@@ -12,13 +12,15 @@ const styles = {
   div: {
     // background: "#edede9",
     // height: "120vh",
+    width: "98%",
+    margin: "auto",
   },
   card: {
     margin: "2px",
     borderRadius: "35px",
     background: "#377884",
     boxShadow: "0px 0px 4px white",
-    minHeight: "82vh",
+    minHeight: "90vh",
   },
   image: {
     width: "100%",
