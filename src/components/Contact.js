@@ -49,10 +49,26 @@ const styles = {
     marginLeft: "5px",
     border: "0px",
   },
+  confirm: {
+    padding: "10px",
+    fontSize: "large",
+    fontFamily: "Josefin Sans",
+    color: "#eae2cc",
+    //right, down, blur, color
+    textShadow: "0px 0px 3px black",
+    letterSpacing: "2px",
+    // background: "#347783",
+    // borderRadius: "7px",
+    margin: "5px",
+    marginLeft: "5px",
+    border: "0px",
+  },
 };
 
 function Contact() {
+  const confirm = document.getElementById("confirm");
   const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -71,6 +87,8 @@ function Contact() {
           console.log(error.text);
         }
       );
+    form.current.reset();
+    confirm.textContent = "Your message has been sent!";
   };
 
   return (
@@ -138,6 +156,9 @@ function Contact() {
                 >
                   Submit
                 </button>
+                <div>
+                  <span id="confirm" style={styles.confirm}></span>
+                </div>
               </div>
             </form>
           </div>
