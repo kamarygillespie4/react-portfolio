@@ -21,6 +21,8 @@ const styles = {
     borderBottom: "5px double #347783",
   },
   link: {
+    boxShadow: "0px 0px 4px #d14e40",
+
     color: "#d14e40",
     textDecoration: "none",
     marginLeft: "20px",
