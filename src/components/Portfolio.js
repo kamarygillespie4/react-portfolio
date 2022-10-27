@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import Carousel from "react-bootstrap/Carousel";
+
 import movies from "../images/movies.jpg";
 import teamprof from "../images/teamprof.jpg";
 import techblog from "../images/techblog.jpg";
