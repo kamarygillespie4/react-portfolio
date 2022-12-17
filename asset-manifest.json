@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.js": "/react-portfolio/static/js/main.f2dd926b.js",
+    "main.js": "/react-portfolio/static/js/main.0bbe92e4.js",
     "static/media/movies.jpg": "/react-portfolio/static/media/movies.3a6d138fbc71cebfc79b.jpg",
     "static/media/workday.jpg": "/react-portfolio/static/media/workday.498136917adf6842ab64.jpg",
     "static/media/teamprof.jpg": "/react-portfolio/static/media/teamprof.4e05ef0c5a44389d2432.jpg",
     "static/media/techblog.jpg": "/react-portfolio/static/media/techblog.e63591e6e757a4434550.jpg",
-    "static/media/resume2.jpg": "/react-portfolio/static/media/resume2.d542c7e361d0da4db556.jpg",
+    "static/media/respg1.jpg": "/react-portfolio/static/media/respg1.9db77cf6f704a6658130.jpg",
+    "static/media/respg2.jpg": "/react-portfolio/static/media/respg2.6b9bee8072840812403b.jpg",
     "static/media/express.jpg": "/react-portfolio/static/media/express.95a6f94909f5045a9d15.jpg",
     "static/media/quiz.jpg": "/react-portfolio/static/media/quiz.43eb36415e2ce9417f04.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.f2dd926b.js.map": "/react-portfolio/static/js/main.f2dd926b.js.map"
+    "main.0bbe92e4.js.map": "/react-portfolio/static/js/main.0bbe92e4.js.map"
   },
   "entrypoints": [
-    "static/js/main.f2dd926b.js"
+    "static/js/main.0bbe92e4.js"
   ]
 }
